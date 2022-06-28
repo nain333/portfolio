@@ -43,6 +43,9 @@ body{
 }
 #social-list i{
     height: 3rem;
+
+    
+    padding: 1rem;
     
 }
 #myname{
@@ -54,7 +57,7 @@ body{
     text-align: center;
 }
 .social-icons li a i{
-    padding: 10px;
+    padding: 0px;
     border-radius: 50%;
     font-size:1rem
 
@@ -62,6 +65,7 @@ body{
 }
 .social-icons li a i:hover{
     box-shadow: 0px 0px 6px 10px rgba(230, 196, 196, .8)  ;
+    color: thistle;
 }
 .navigation-menu li a:hover{
     border-bottom: 1px solid ;
@@ -81,12 +85,13 @@ body{
     width: 12rem;
     margin: auto;
     display:block;
+    margin-top: -17vh;
 }
 #my-image img{
     height:100%;
     width:100%;
     border-radius: 50%;
-    margin-top: -17vh;
+    
     border: solid  whitesmoke;
     border-radius: 100%;
     box-shadow: 0px 0px 4px 2px gray ;
@@ -94,11 +99,11 @@ body{
 }
 
 #aboutme-text{
-    position: relative;
+    position: static;
     text-align: center;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-top: -12vh;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: grey;
 
@@ -106,3 +111,4 @@ body{
 #aboutme-text strong{
     color: royalblue;
 }
+
