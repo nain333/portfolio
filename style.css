@@ -277,10 +277,12 @@ section:nth-child(2n+1){
     margin: 0 auto;
     font-size: 0.75em;
     padding: 0.5rem 1rem;
+    text-decoration: none;
   }
   
   .contact-container .contact-form-container #submit:hover {
     color: #1262b3;
+    text-decoration: none;
   }
   
   .contact-container .address-container h2, .contact-container .address-container div {
